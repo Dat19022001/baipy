@@ -17,7 +17,7 @@ def nguyento(h):
 t = 0;
 k = 2;
 a = array.array('i');    
-while t < int(x[0])  :
+while t < int(x[0]) :
     if nguyento(k):
         a.append(k);
         t = t + 1 ;

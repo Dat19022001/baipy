@@ -7,7 +7,7 @@ while True:
         x = s[0];
         for i in range(3):
             s[i] = abs(s[i] - s[i+1]);
-        s[3] = abs(s[3] - x);
-        dem += 1;
+            s[3] = abs(s[3] - x);
+            dem += 1;
        
     print(dem);    
